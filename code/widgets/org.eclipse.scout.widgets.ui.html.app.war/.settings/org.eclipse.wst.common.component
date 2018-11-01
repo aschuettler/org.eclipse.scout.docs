@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="scout.widgets">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="org.eclipse.scout.widgets.ui.html.app-8.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.eclipse.scout.widgets.ui.html.app/org.eclipse.scout.widgets.ui.html.app">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.scout.widgets.ui.html-8.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.eclipse.scout.widgets.ui.html/org.eclipse.scout.widgets.ui.html">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.scout.widgets.client-8.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.eclipse.scout.widgets.client/org.eclipse.scout.widgets.client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.scout.widgets.shared-8.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.eclipse.scout.widgets.shared/org.eclipse.scout.widgets.shared">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.scout.widgets.heatmap.ui.html-8.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.eclipse.scout.widgets.heatmap.ui.html/org.eclipse.scout.widgets.heatmap.ui.html">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.scout.widgets.heatmap.client-8.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/org.eclipse.scout.widgets.heatmap.client/org.eclipse.scout.widgets.heatmap.client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="scout.widgets"/>
+        <property name="java-output-path" value="/org.eclipse.scout.widgets.ui.html.app.war/target/classes"/>
+    </wb-module>
+</project-modules>
